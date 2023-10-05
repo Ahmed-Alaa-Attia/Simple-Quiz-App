@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,700&family=Roboto:wght@300;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: linear-gradient(#001e4d,#063a8f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    min-height: 100vh;
+}
+
+.app
+{
+    background: #fff;
+    width: 100%;
+    max-width: 700px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px; 
+}
+
+
+.app h1{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz
+{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 700;
+}
+
+.btn
+{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.btn:hover:not([disabled])
+{
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled
+{
+    cursor: no-drop;
+}
+
+#next-btn
+{
+    background: #001e4d;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    margin: 20px auto 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    display: none;
+}
+
+.correct
+{
+    background: #9aeabc;
+}
+
+.incorrect
+{
+    background: #ff9393;
+}
+
+
